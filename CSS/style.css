@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
+
+body{
+	background-color: #b1caf7;
+}
+
+html, body, .kontakti, .kontakti_row, .leftaside{
+	height: 100%;
+
+}
+
+main{
+	background-color: #b1caf7;
+}
+.articleImg{
+	/*text-align: center;*/
+}
+.kontakti-bilde{
+	max-width: 120px;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+
+.leftaside ul li a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.active1{
+	background-color: #1fb316;
+	width: 100%;
+}
+
+.leftaside ul li:hover{
+background-color: #1fb316;
+}
+
+.leftaside{
+	height: 100%;
+	background-color: #1b316f;
+}
+
+.rightaside{
+	background-color: green;
+}
+
+.navbar-inverse .navbar-brand{
+	color: #ffffff;
+
+}
+.ltitle{
+	font-family: 'Rammetto One', cursive;
+}
+
+.title{
+	text-align: center;
+}
+
+.article{
+	line-height: 150%;
+}
+.navbar{
+	margin-bottom: 0;
+}
+
+.navbar-inverse {
+	background-color: #1b316f;
+	border-style: none;
+	border-radius: 0px;
+}
+.navbar-inverse .navbar-nav {
+	/* default text color */
+	/* text color and active element background color */
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #ffffff;
+	font-family: 'Rammetto One', cursive;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	background-color: #00840a;
+	color: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a:focus {
+	background-color: #1fb316;
+	color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #00840a;
+	color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #00840a;
+	color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background-color: #1fb316;
+	color: #ffffff;
+}
+.navbar-inverse .navbar-toggle {
+	background-color: #00840a;
+	border-color: #1fb316;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #00840a;
+	border-color: #00840a;
+}
+.navbar-inverse .navbar-toggle:focus {
+	background-color: #1fb316;
+	border-color: #1fb316;
+}
+.navbar-brand {
+
+}
+.navbar-brand img {
+	max-width: 100px;
+}
+
+.article p{
+	font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	html, body, .kontakti, .kontakti_row, .leftaside{
+		height: auto;
+
+	}
+
+	body{
+		background-color: red;
+	}
+}
+
+@media screen and(min-width: 601px) {
+	/*html, body, .kontakti, .kontakti_row, .leftaside {*/
+		/*height: 100%;*/
+
+	/*}*/
+	body{
+		background-color: #2aabd2;
+	}
+}
