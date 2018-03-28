@@ -126,23 +126,23 @@ background-color: #1fb316;
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1080px) {
 	html, body, .kontakti, .kontakti_row, .leftaside{
 		height: auto;
 
 	}
 
 	body{
-		background-color: red;
+		background-color: #b1caf7;
 	}
 }
 
-@media screen and(min-width: 601px) {
+@media screen and(min-width: 1081px) {
 	/*html, body, .kontakti, .kontakti_row, .leftaside {*/
 		/*height: 100%;*/
 
 	/*}*/
 	body{
-		background-color: #2aabd2;
+		background-color: #b1caf7;
 	}
 }
